@@ -115,8 +115,8 @@ class TelegramBot(Base):
             self.loop.stop()
         await self._load_all_attribute()
         await self.channel_log("✅ Bot Activated ✅"
-                               "\n➖➖➖➖➖➖➖➖➖➖\nSupport 💬 : @ProtectorChats"
-                               "\n➖➖➖➖➖➖➖➖➖➖\nNews 📢 : @ProtectorNews")
+                               "\n➖➖➖➖➖➖➖➖➖➖\nSupport 💬 : @SiArabSupport"
+                               "\n➖➖➖➖➖➖➖➖➖➖\nNews 📢 : @SiArab_Store")
 
     async def run(self: "Protector") -> None:
         """Run PyroClient"""
